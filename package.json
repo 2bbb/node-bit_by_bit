@@ -1,0 +1,22 @@
+{
+  "name": "bbb",
+  "version": "0.0.1",
+  "description": "tiny libraries",
+  "main": "bbb.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine-node test"
+  },
+  "keywords": [],
+  "author": "ISHII 2bit",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/2bbb/node-bit_by_bit/LICENSE"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
