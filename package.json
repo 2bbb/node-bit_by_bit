@@ -1,5 +1,5 @@
 {
-  "name": "bbb",
+  "name": "bit_by_bit",
   "version": "0.0.1",
   "description": "tiny libraries",
   "main": "bbb.js",
@@ -12,6 +12,10 @@
   },
   "keywords": [],
   "author": "ISHII 2bit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2bbb/node-bit_by_bit"
+  },
   "license": {
     "type": "MIT",
     "url": "https://github.com/2bbb/node-bit_by_bit/LICENSE"
