@@ -3,11 +3,11 @@
 ## At first
 
 ```
-npm install bit_by_bit
+npm install bit-by-bit
 ```
 
 ```
-const bbb = require('bit_by_bit');
+const bbb = require('bit-by-bit');
 ```
 
 ## API

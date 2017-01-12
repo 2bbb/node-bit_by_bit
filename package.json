@@ -1,6 +1,6 @@
 {
-  "name": "bit_by_bit",
-  "version": "0.0.2",
+  "name": "bit-by-bit",
+  "version": "0.0.1",
   "description": "tiny libraries",
   "main": "bbb.js",
   "directories": {
