@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "artnet-node": "2bbb/artnet-node",
+    "lazier": "0.0.1",
     "node-osc": "^2.0.4"
   }
 }

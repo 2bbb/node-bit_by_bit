@@ -1,6 +1,8 @@
-const functional = require('./lib/functional.js');
-const osc = require('./lib/osc.js');
-const artnet = require('./lib/artnet.js');
-const dmx = require('./lib/dmx.js');
+const lazier = require('lazier');
 
-module.exports = { functional, osc, artnet, dmx };
+module.exports = lazier({
+	functional: './lib/functional.js',
+	osc: './lib/osc.js',
+	artnet: './lib/artnet.js',
+	dmx: './lib/dmx.js'
+}, __dirname);
