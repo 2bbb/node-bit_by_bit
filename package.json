@@ -22,5 +22,9 @@
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "artnet-node": "2bbb/artnet-node",
+    "node-osc": "^2.0.4"
   }
 }
