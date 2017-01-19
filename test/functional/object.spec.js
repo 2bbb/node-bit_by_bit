@@ -38,6 +38,26 @@ describe('bbb.functional.object:', () => {
         expect(result.c).toEqual(800);
     });
 
+    it('object.mapKV', () => {
+        expect(object.mapKV).toBeDefined();
+
+        const result = object.mapKV(source, (key, value) => {
+            return {
+                key: "new_" + key,
+                value: value * 2
+            };
+        });
+        
+        expect(result.new_a).toBeDefined();
+        expect(result.new_a).toEqual(200);
+
+        expect(result.new_b).toBeDefined();
+        expect(result.new_b).toEqual(400);
+
+        expect(result.new_c).toBeDefined();
+        expect(result.new_c).toEqual(800);
+    });
+
     it('object.reduce', () => {
         expect(object.reduce).toBeDefined();
 
