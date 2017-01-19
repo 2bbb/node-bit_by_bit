@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jasmine-node test"
+    "test": "NODE_PATH=. jasmine-node test"
   },
   "keywords": [],
   "author": "ISHII 2bit",
