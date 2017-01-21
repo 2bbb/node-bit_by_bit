@@ -9,7 +9,8 @@
     "example": "./example"
   },
   "scripts": {
-    "test": "NODE_PATH=. jasmine-node test"
+    "test": "NODE_PATH=. jasmine-node test",
+    "test-dev": "NODE_PATH=. jasmine-node --autotest test --watch ./bbb.js ./lib"
   },
   "keywords": [],
   "author": "ISHII 2bit",
