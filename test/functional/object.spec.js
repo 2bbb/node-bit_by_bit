@@ -17,7 +17,7 @@ describe('bbb.functional.object:', () => {
             expect(object.forEach).toBeDefined();
         });
         it('object.forEach', () => {
-            const result = object.forEach(source, (key, value) => {
+            const result = object.forEach(source, (value, key) => {
                 expect(value).toEqual(source[key]);
             });
             expect(result).toEqual(source);
@@ -29,7 +29,7 @@ describe('bbb.functional.object:', () => {
             expect(object.map).toBeDefined();
         });
         it('object.map', () => {
-            const result = object.map(source, (key, value) => {
+            const result = object.map(source, (value, key) => {
                 if(key == 'a') return -100;
                 return value * 2;
             });
@@ -52,7 +52,7 @@ describe('bbb.functional.object:', () => {
             expect(object.mapKV).toBeDefined();
         });
         it('object.mapKV', () => {
-            const result = object.mapKV(source, (key, value) => {
+            const result = object.mapKV(source, (value, key) => {
                 return {
                     key: "new_" + key,
                     value: value * 2
@@ -77,7 +77,7 @@ describe('bbb.functional.object:', () => {
             expect(object.reduce).toBeDefined();
         });
         it('object.reduce', () => {
-            const result = object.reduce(source, (key, value, reduced) => {
+            const result = object.reduce(source, (reduced, value, key) => {
                 if(key == 'a') return reduced - value;
                 return reduced + value;
             }, 50);
