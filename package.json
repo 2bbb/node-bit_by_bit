@@ -23,7 +23,7 @@
     "jasmine-node": "^1.14.5"
   },
   "dependencies": {
-    "lazier": "0.0.1",
+    "lazier": "0.0.2",
     "node-osc": "^2.0.4"
   },
   "engines": {
